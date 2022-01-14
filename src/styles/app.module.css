@@ -26,3 +26,8 @@
         text-align: center;        
     }
 }
+
+:root {
+    --red: #E30613;
+    --main_bg: #1F1E1F;
+}

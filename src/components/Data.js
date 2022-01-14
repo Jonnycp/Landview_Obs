@@ -17,7 +17,7 @@ const Data = () => {
     return (
         <div className={styles.data}>
             <h2>
-                {time.getDay()} {time.toLocaleString('default', { month: 'long' }).charAt(0).toLocaleUpperCase()+time.toLocaleString('default', { month: 'long' }).substr(1)} {time.getFullYear()}
+                {time.getDate()} {time.toLocaleString('default', { month: 'long' }).charAt(0).toLocaleUpperCase()+time.toLocaleString('default', { month: 'long' }).substr(1)} {time.getFullYear()}
             </h2>
         </div>
     );
