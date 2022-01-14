@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Landview_Obs/static/css/main.8e667051.css",
+    "main.js": "/Landview_Obs/static/js/main.46bf6cc9.js",
+    "static/media/logo-rp.png": "/Landview_Obs/static/media/logo-rp.cc04b43cada72a772192.png",
+    "index.html": "/Landview_Obs/index.html",
+    "main.8e667051.css.map": "/Landview_Obs/static/css/main.8e667051.css.map",
+    "main.46bf6cc9.js.map": "/Landview_Obs/static/js/main.46bf6cc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e667051.css",
+    "static/js/main.46bf6cc9.js"
+  ]
+}
