@@ -1,0 +1,19 @@
+.viewer h2 {
+    width: 100%;
+    background: var(--gradientBlu);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: var(--bianco);
+    font-weight: 600;
+    font-size: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}       
+
+.viewer iframe {
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px
+}
