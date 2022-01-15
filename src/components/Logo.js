@@ -1,36 +1,11 @@
 import React from "react";
 import LogoBrand from "../assets/logo-rp.png";
+import blob from "../assets/blob.svg";
 import styles from "../styles/logo.module.css"
 
 const Logo = () => {
   return (
-    <div className = {styles.logo}>
-      <svg
-        width="400"
-        height="200"
-        viewBox="0 0 585 197"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M584.115 -119.274C585.974 -151.549 572.538 -183.817 548.605 -204.608C514.835 -233.93 470.557 -234.444 428.925 -219.395C413.679 -213.892 398.824 -206.955 383.089 -203.268C345.099 -194.371 323.429 -218.223 290.527 -229.702C201.904 -260.646 165.028 -136.582 101.448 -101.023C60.0753 -77.8814 7.87122 -84.9129 -25.4004 -115.92C-27.7866 -118.143 -30.227 -120.563 -33.4285 -121.377C-35.6354 -121.931 -37.9896 -121.654 -40.2501 -121.241C-75.6018 -114.869 -101.599 -78.1467 -104.656 -43.9885C-108.028 -6.20715 -90.998 29.655 -70.8521 60.941C-54.7751 85.9137 -35.9792 109.81 -11.0257 125.929C56.6954 169.697 150.049 146.304 226.255 173.828C242.713 179.778 258.267 188.069 275.224 192.56C318.345 203.975 365.067 189.426 406.013 169.244C456.499 144.361 504.93 108.16 527.992 56.8725C542.766 24.0261 546.117 -12.7762 561.466 -45.3751C572.13 -68.1105 582.686 -94.525 584.115 -119.274Z"
-          fill="url(#paint0_linear_5_38)"
-        />
-        <defs>
-          <linearGradient
-            id="paint0_linear_5_38"
-            x1="63.7762"
-            y1="-242.224"
-            x2="453.525"
-            y2="147.525"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#003153" />
-            <stop offset="1" stopColor="#55ACEE" />
-            <stop offset="1" stopColor="#009FE3" />
-          </linearGradient>
-        </defs>
-      </svg>
+    <div className={styles.logo} style={{ backgroundImage: `url(${blob})` }}>
       <img src={LogoBrand} alt="Logo radioPanetti"/>
     </div>
   );
