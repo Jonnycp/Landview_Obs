@@ -1,0 +1,16 @@
+.prompt{
+    background: var(--nero);
+    border: 6px var(--bianco) solid;
+    border-radius: 20px;
+    min-height: 100%;
+    color: var(--bianco);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 4.375rem;
+    letter-spacing: 1px;
+    line-height: 100px;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
