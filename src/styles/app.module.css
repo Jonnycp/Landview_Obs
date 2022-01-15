@@ -7,8 +7,23 @@
     height: 100vh;
 }
 
-.mobile{
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.mobile {
     display: none
+}
+
+.stateBtns {
+    display: flex;
+    gap: 60px;
+    justify-content: flex-end;
+}
+
+.stateBtns div {
+    flex-basis: 30%;
 }
 
 @media (max-width: 1200px) {
@@ -28,6 +43,11 @@
 }
 
 :root {
-    --red: #E30613;
+    --rosso: #E30613;
+    --preview: #32BD02;
+    --disabled: #484545;
     --main_bg: #1F1E1F;
+    --bianco: #fff;
+    --nero: #000;
+    --gradientBlu: linear-gradient(153.11deg, #003153 -114.07%, #55ACEE 108.84%, #009FE3 108.84%);
 }
