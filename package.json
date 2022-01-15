@@ -1,5 +1,7 @@
 {
-  "name": "landview_radiopanetti",
+  "name": "landview-obs",
+  "author": "Jonathan Caputo <jonathan-caputo@hotmail.com> Luca Landriscina <3005lucalandriscina@gmail.com>",
+  "description": "Hai bisogno di mostrare i dati della tua live in uno schermo per uno studio televisivo? Ecco questo software fa per te! Interagisce in tempo reale con OBS e con tutti gli altri client collegati. Comprende tally lights, teleprompter, flusso video e statistiche",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
