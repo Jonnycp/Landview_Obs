@@ -1,0 +1,29 @@
+.toggleBtn{
+    border: 3px var(--bianco) solid;
+    background: var(--disabled);
+    color: var(--bianco);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 5px 45px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    min-height: 90px;
+}
+
+.toggleBtn.active{
+    background: var(--rosso);
+    font-size: 70px;
+}
+
+.toggleBtn h4{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.toggleBtn h5{
+    font-size: 35px;
+    font-weight: 600;
+}

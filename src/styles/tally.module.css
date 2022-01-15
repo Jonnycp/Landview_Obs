@@ -1,0 +1,17 @@
+.active{
+    background: var(--rosso)
+}
+
+.preview{
+    background: var(--preview)
+}
+
+.tally{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tally div{
+    flex-basis: 10%;
+}
