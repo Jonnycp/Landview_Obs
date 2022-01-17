@@ -11,7 +11,7 @@ function ToggleBtn({name, value, active, preview, tally}){
             <h5>{value}</h5>
         </div>
         : 
-        <div className={`${active ? styles.toggleBtn + " " + tallyS.active : preview ?  styles.toggleBtn + " " + tallyS.preview : styles.toggleBtn}`}>
+        <div className={`${active ? styles.toggleBtn + " " + styles.tally + " " + tallyS.active : preview ? styles.toggleBtn  + " " + styles.tally + " " + tallyS.preview : styles.toggleBtn + " " + styles.tally}`}>
             <h4>{name}</h4>
             <h5>{value}</h5>
         </div>

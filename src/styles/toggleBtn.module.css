@@ -23,7 +23,17 @@
     font-weight: 900;
 }
 
+.toggleBtn.tally h4{
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+
 .toggleBtn h5{
     font-size: 35px;
+    font-weight: 600;
+}
+
+.toggleBtn.tally h5{
+    font-size: 1.6vw;
     font-weight: 600;
 }
